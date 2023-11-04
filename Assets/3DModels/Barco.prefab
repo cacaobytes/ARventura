@@ -1,0 +1,116 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2090275204184925765
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6116498837310304574}
+  - component: {fileID: 4523772053488234213}
+  m_Layer: 0
+  m_Name: Barco
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6116498837310304574
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2090275204184925765}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 6029031662172567112}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4523772053488234213
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2090275204184925765}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b3d0e3f52dfe4243aceaba16f9cd0c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _altitudeOffset: 0
+  _latitude: 15.466724000000003
+  _longitude: -88.8442
+  _altitude: 46.99999999762583
+  _altitudeType: 0
+  _anchorManager: {fileID: 0}
+--- !u!1001 &6029031662172898266
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 6116498837310304574}
+    m_Modifications:
+    - target: {fileID: 153108, guid: ca514cb9ea5a00b499f879bd90a9aaca, type: 3}
+      propertyPath: m_Name
+      value: SM_Veh_Boat_Warship_01_Hull_Pirate
+      objectReference: {fileID: 0}
+    - target: {fileID: 456082, guid: ca514cb9ea5a00b499f879bd90a9aaca, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 456082, guid: ca514cb9ea5a00b499f879bd90a9aaca, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 456082, guid: ca514cb9ea5a00b499f879bd90a9aaca, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 456082, guid: ca514cb9ea5a00b499f879bd90a9aaca, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 456082, guid: ca514cb9ea5a00b499f879bd90a9aaca, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 456082, guid: ca514cb9ea5a00b499f879bd90a9aaca, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 456082, guid: ca514cb9ea5a00b499f879bd90a9aaca, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 456082, guid: ca514cb9ea5a00b499f879bd90a9aaca, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 456082, guid: ca514cb9ea5a00b499f879bd90a9aaca, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 456082, guid: ca514cb9ea5a00b499f879bd90a9aaca, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ca514cb9ea5a00b499f879bd90a9aaca, type: 3}
+--- !u!4 &6029031662172567112 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 456082, guid: ca514cb9ea5a00b499f879bd90a9aaca,
+    type: 3}
+  m_PrefabInstance: {fileID: 6029031662172898266}
+  m_PrefabAsset: {fileID: 0}
